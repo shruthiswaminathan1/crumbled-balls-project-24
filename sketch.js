@@ -25,7 +25,7 @@ paperObject.display();
 groundObject.display();
 }
 
-function KeyPressed() {
+function keyPressed() {
 	if (keyCode === UP_ARROW) {
 		Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:35,y:-35});
 	}
